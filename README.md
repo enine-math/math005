@@ -19,10 +19,9 @@ answer()
 
 Write a function in python that returns the smallest positive number that is evenly divisible by all of the numbers between the range `p` and `q`, inclusive.
 
-Edit the file solver.py to update the function `solver` to return the 
-answer when called as in the below example.
+Use the range from the lesser of `p` and `q` to the greater of `p` and `q`. Make no assumption about which is lesser or greater.
 
-The function should return `None` if `p` is greater than `q`.
+Edit the file solver.py to update the function `solver` to return the answer when called as in the below example.
 
 ```
 solver(p, q)
